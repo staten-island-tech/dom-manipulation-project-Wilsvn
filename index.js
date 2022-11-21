@@ -1,6 +1,10 @@
 const DOMSelectors = {
   button: document.getElementById("btn"),
-  text: document.querySelector("#text"),
-  empty: document.querySelector(".nothing"),
+  box: document.getElementById("container-box"),
+  input: document.querySelector("#input"),
 };
-console.log(DOMSelectors);
+DOMSelectors.button.addEventListener("click", function(){
+  let input = DOMSelectors.input.value;
+  DOMSelectors.box.insertAdjacentHTML("afterend", `<p>${input}</p>`);
+  console.log(input);
+})
