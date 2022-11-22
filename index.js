@@ -5,7 +5,7 @@ const DOMSelectors = {
   input2: document.querySelector("#input2"),
   inputs: document.querySelectorAll(".input"),
 };
-console.log(DOMSelectors.inputs);
+
 DOMSelectors.button.addEventListener(
   "click",
   function (Inject) {
@@ -15,10 +15,6 @@ DOMSelectors.button.addEventListener(
       "beforeend",
       `<p>${input1} from ${input2}</p>`
     );
-  },
-  function (Clear) {
-    DOMSelectors.inputs.forEach((inputs) => {
-      DOMSelectors.inputs.values = null;
-    });
-  }
-);
+    DOMSelectors.inputs.values = "";
+})
+
