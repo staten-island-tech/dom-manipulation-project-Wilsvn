@@ -1,7 +1,32 @@
+
 #container-box {
   background-color: black;
   font-size: 2vh;
   color: rgb(255, 16, 240);
   text-align: center;
-  box-shadow: inset;
+  padding: 50px;
+  margin-top: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+  box-shadow: -30px 30px 20px rgb(255, 122, 238);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#result-box {
+  background-color: black;
+  font-size: 5vh;
+  color: rgb(255, 16, 240);
+  text-align: center;
+  padding: 50px;
+  margin-top: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+  box-shadow: -30px 30px 20px rgb(255, 122, 238);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+::backdrop {
+  background-color: rgb(255, 16, 240);
 }
