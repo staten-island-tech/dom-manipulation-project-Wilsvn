@@ -25,6 +25,7 @@ DOMSelectors.button.addEventListener(
   DOMSelectors.button2.addEventListener(
     "click",
     function (clear) {
-      
+      const button2 = "clear"
+      console.log(button2);
     }
   )
