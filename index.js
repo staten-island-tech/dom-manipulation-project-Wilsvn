@@ -8,6 +8,7 @@ const DOMSelectors = {
   inputs: document.querySelectorAll(".input"),
 };
 
+<<<<<<< HEAD
 DOMSelectors.button.addEventListener(
   "click",
   function (Inject) {
@@ -29,3 +30,21 @@ DOMSelectors.button.addEventListener(
       console.log(button2);
     }
   )
+=======
+DOMSelectors.button.addEventListener("click", function Inject() {
+  let input1 = DOMSelectors.input1.value;
+  let input2 = DOMSelectors.input2.value;
+  let input3 = DOMSelectors.input3.value;
+  DOMSelectors.box.insertAdjacentHTML(
+    "beforeend",
+    `<p>${input1} from ${input2}, served in a ${input3}</p>`
+  );
+  DOMSelectors.input1.value = "";
+  DOMSelectors.input2.value = "";
+  DOMSelectors.input3.value = "";
+});
+
+DOMSelectors.button2.addEventListener("click", function clear() {
+  DOMSelectors.box.remove;
+});
+>>>>>>> 0aa0fe2abfd16d263438b1da82aba1f6eced49b9

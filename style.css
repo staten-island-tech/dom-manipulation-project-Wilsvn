@@ -1,4 +1,16 @@
-
+body {
+  background-color: rgb(68,10,105);
+}
+.Button {
+  font-size: 2vh;
+  color: black;
+  background-color: rgb(255, 16, 240);
+  border-radius: 20px;
+  padding: 5px;
+}
+.input{
+  background-color: rgb(255, 122, 238);
+}
 #container-box {
   background-color: black;
   font-size: 2vh;
@@ -27,6 +39,3 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
-::backdrop {
-  background-color: rgb(255, 16, 240);
-}
