@@ -25,6 +25,6 @@ DOMSelectors.button.addEventListener("click", function Empty() {
 });
 
 DOMSelectors.button2.addEventListener("click", function (clear) {
-  let Card = document.getElementById("#Card");
+  let Card = document.querySelector("#Card");
   Card.remove();
 });
