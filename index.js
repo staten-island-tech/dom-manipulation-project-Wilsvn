@@ -18,7 +18,7 @@ DOMSelectors.button.addEventListener("click", function Inject() {
   );
 });
 
-DOMSelectors.button.addEventListener("click", function Empty() {
+DOMSelectors.button.addEventListener("click", function EmptyFields() {
   DOMSelectors.input1.value = "";
   DOMSelectors.input2.value = "";
   DOMSelectors.input3.value = "";
